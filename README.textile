@@ -1,0 +1,5 @@
+p=. !http://github.com/downloads/weiglewilczek/scalamodules/scalamodules-logo-100x100.png!:http://github.com/weiglewilczek/scalamodules.
+
+Examples for "ScalaModules":http://github.com/weiglewilczek/scalamodules
+
+This projectis open source software licensed under the "Eclipse Public License v1.0":http://www.eclipse.org/legal/epl-v10.html. Just use it!

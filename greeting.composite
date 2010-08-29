@@ -1,6 +1,6 @@
 scan-bundle:mvn:com.weiglewilczek.scala-lang-osgi/scala-library/2.8.0
-scan-bundle:file:greeting-create/lib_managed/scala_2.8.0/compile/scalamodules-core_2.8.0-2.0.jar
-scan-bundle:file:greeting-api/target/scala_2.8.0/scalamodulesexamples-greeting-api_2.8.0-2.0.jar
-scan-bundle:file:greeting-create/target/scala_2.8.0/scalamodulesexamples-greeting-create_2.8.0-2.0.jar
-scan-bundle:file:greeting-find/target/scala_2.8.0/scalamodulesexamples-greeting-find_2.8.0-2.0.jar
-scan-bundle:file:greeting-watch/target/scala_2.8.0/scalamodulesexamples-greeting-watch_2.8.0-2.0.jar
+scan-bundle:file:greeting-create/lib_managed/scala_2.8.0/compile/scalamodules-core_2.8.0-2.0.0.RC2.jar
+scan-bundle:file:greeting-api/target/scala_2.8.0/scalamodulesexamples-greeting-api_2.8.0-2.0.0.RC2.jar
+scan-bundle:file:greeting-create/target/scala_2.8.0/scalamodulesexamples-greeting-create_2.8.0-2.0.0.RC2.jar
+scan-bundle:file:greeting-find/target/scala_2.8.0/scalamodulesexamples-greeting-find_2.8.0-2.0.0.RC2.jar
+scan-bundle:file:greeting-watch/target/scala_2.8.0/scalamodulesexamples-greeting-watch_2.8.0-2.0.0.RC2.jar
