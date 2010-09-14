@@ -35,7 +35,7 @@ class Activator extends BundleActivator {
       politeGreeting,
       interface1 = interface[Greeting],
       interface2 = interface[Serializable],
-      properties = Style -> "polite")
+      properties = Map(Style -> "polite", "priority" -> 1))
   }
 
   override def stop(context: BundleContext) {}

@@ -36,6 +36,7 @@ class ScalaModulesExamplesParentProject(info: ProjectInfo) extends ParentProject
   class GreetingAPIProject(info: ProjectInfo) extends DefaultProject(info) with BNDPlugin {
     override def bndExportPackage =
       "com.weiglewilczek.scalamodulesexamples.greeting;version=%s".format(projectVersion.value) :: Nil
+    override def bndVersionPolicy = Some("[$(@),$(version;=+;$(@)))")
   }
 
   // ===================================================================================================================
@@ -52,6 +53,7 @@ class ScalaModulesExamplesParentProject(info: ProjectInfo) extends ParentProject
     override def bndImportPackage =
       "com.weiglewilczek.scalamodulesexamples.greeting.*;version=\"[%1$s,%1$s]\"".format(projectVersion.value) ::
       super.bndImportPackage.toList
+    override def bndVersionPolicy = Some("[$(@),$(version;=+;$(@)))")
   }
 
   // ===================================================================================================================
@@ -68,6 +70,7 @@ class ScalaModulesExamplesParentProject(info: ProjectInfo) extends ParentProject
     override def bndImportPackage =
       "com.weiglewilczek.scalamodulesexamples.greeting.*;version=\"[%1$s,%1$s]\"".format(projectVersion.value) ::
       super.bndImportPackage.toList
+    override def bndVersionPolicy = Some("[$(@),$(version;=+;$(@)))")
   }
 
   // ===================================================================================================================
@@ -84,5 +87,6 @@ class ScalaModulesExamplesParentProject(info: ProjectInfo) extends ParentProject
     override def bndImportPackage =
       "com.weiglewilczek.scalamodulesexamples.greeting.*;version=\"[%1$s,%1$s]\"".format(projectVersion.value) ::
       super.bndImportPackage.toList
+    override def bndVersionPolicy = Some("[$(@),$(version;=+;$(@)))")
   }
 }
